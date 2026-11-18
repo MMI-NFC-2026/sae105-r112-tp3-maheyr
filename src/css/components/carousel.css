@@ -103,3 +103,38 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   list-style: none;
   padding: 0;
 }
+
+/* Cache visuellement le h2 tout en le gardant pour les lecteurs d'écran */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Le carousel sert de repère pour placer les boutons */
+.carousel {
+  position: relative;
+}
+
+/* Les boutons passent par-dessus les images, centrés en hauteur */
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  z-index: 1;
+  background: white;
+  cursor: pointer;
+}
+
+/* Bouton gauche collé à gauche */
+.carousel__button--prev {
+  left: 8px;
+}
+
+/* Bouton droit collé à droite */
+.carousel__button--next {
+  right: 8px;
+}
