@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : RALAMBO
+- prénom : Mahey
+- URL Netlify : https://snazzy-pudding-3f16b3.netlify.app/
 
 # Travail
 
