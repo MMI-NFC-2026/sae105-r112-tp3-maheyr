@@ -89,3 +89,17 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   display: block;
   width: 100%; /* L'image remplit toute la largeur de l'item */
 }
+
+/* Défilement fluide quand on clique sur une ancre */
+.carousel__container {
+  scroll-behavior: smooth;
+}
+
+/* Les numéros sur une ligne, centrés, sans puces */
+.carousel__nav ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
